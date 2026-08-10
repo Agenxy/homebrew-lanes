@@ -4,22 +4,22 @@ cask "lanes" do
 
   on_macos do
     on_intel do
-      sha256 "86ae87cdf59fbd054e9942591f672dd92bc68e290f745cefc17c43976e4d8c03"
+      sha256 "63bef51458b6c653ac446af25ab93216ba0d477e05070c891a0d9f379d67edd4"
       url "https://github.com/Agenxy/lanes/releases/download/v#{version}/lanes_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "a46e3ce63099499a0632ae261123badfe8a8ff6ff5cad70a44d4ae682b96579d"
+      sha256 "b897a0f7b8900c03ca8b3c873afc52bd05d0153356cd09a1871eb5ca0c2ce933"
       url "https://github.com/Agenxy/lanes/releases/download/v#{version}/lanes_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "7a56fe6d81068a83dd07df63f4c2d190740d0c5b1754f119ac4d9d1c0f447675"
+      sha256 "e02b0ba647b9931ab214059de475e3e78eedab534c33df0246ca6e4a842a0f84"
       url "https://github.com/Agenxy/lanes/releases/download/v#{version}/lanes_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "2a9b9eae0b189a904dfb9e1d5111fbb35cf9ae4d30bbeb3b6965f5ae08c6f46c"
+      sha256 "e1ef82275a274b7886f13fe15a993d1abd62b8b6782c4f1704b00ff04089f781"
       url "https://github.com/Agenxy/lanes/releases/download/v#{version}/lanes_#{version}_linux_arm64.tar.gz"
     end
   end
