@@ -1,5 +1,5 @@
 class Remap < Formula
-  desc "Map arbitrary hostnames to addresses and routed services"
+  desc "Offline validator for hostname mapping specifications"
   homepage "https://github.com/Agenxy/remap"
   url "https://github.com/Agenxy/remap/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "d64a8edb77cb881207508e69c20bc11666e160609cfba312198f85043c3ebeba"
