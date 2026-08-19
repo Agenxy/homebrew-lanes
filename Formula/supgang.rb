@@ -1,5 +1,5 @@
 class Supgang < Formula
-  desc "Finds the current address of a computer whose address keeps changing"
+  desc "Sovereign peer discovery for computers whose addresses change"
   homepage "https://github.com/Agenxy/supgang"
   url "https://github.com/Agenxy/supgang/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "1b266b83c7befd6ae067023bb5e05b897e90ce0341b96831c4fd8f3357767fcc"
@@ -13,6 +13,6 @@ class Supgang < Formula
 
   test do
     assert_match "supgang #{version}", shell_output("#{bin}/supgang --version")
-    assert_match "Finds the current address of your own computers", shell_output("#{bin}/supgang --help")
+    assert_match "Sovereign peer address discovery", shell_output("#{bin}/supgang --help")
   end
 end
