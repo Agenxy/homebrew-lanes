@@ -1,19 +1,22 @@
 # Agenxy Homebrew tap
 
-Formulae for Agenxy projects. Each is updated by hand from that project's
-release; there is no automation here yet.
+Formulae for Agenxy projects. Remap and Supgang are updated by hand from that
+project's release; the Dibs cask is written by GoReleaser when Dibs tags one.
 
 ```sh
+brew install --cask agenxy/tap/dibs
 brew install agenxy/tap/remap
 brew install agenxy/tap/supgang
 ```
 
-**Dibs is not in this tap yet.** Install it from its
-[releases](https://github.com/agenxy/dibs/releases), which carry signed binaries
-for macOS and Linux on both architectures. The binaries are cosign-signed for
-provenance but not Apple-notarised, so macOS quarantines them and refuses to run
-them until the flag is cleared — which looks like a broken product rather than
-an unsigned one, and is the main thing a formula here will handle when it lands.
+[Dibs](https://github.com/agenxy/dibs) installs as a cask, from prebuilt
+binaries rather than from source: the `dibs` and `dibd` commands and the `dibs`
+man page. They are cosign-signed for provenance but not Apple-notarised, so
+macOS quarantines them and refuses to run them; the cask clears the flag on
+install, which is the main thing it exists to absorb. Homebrew casks are macOS
+only — on Linux, take the binaries from
+[releases](https://github.com/agenxy/dibs/releases), which cover both
+architectures.
 
 [Remap](https://github.com/agenxy/remap) installs the cross-platform `remap`
 CLI. Its foundation release validates name-to-address and name-to-service
