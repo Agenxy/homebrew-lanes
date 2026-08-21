@@ -1,8 +1,8 @@
 class Quarters < Formula
   desc "Persistent alternate user-state spaces for native processes"
   homepage "https://github.com/Agenxy/quarters"
-  url "https://github.com/Agenxy/quarters/archive/refs/tags/v0.1.0-alpha.1.tar.gz"
-  sha256 "edd841e940acf01b0d82e6d5bfbcf3cac152743c3fe5b54c46beb3d7d72187f1"
+  url "https://github.com/Agenxy/quarters/archive/refs/tags/v0.1.0-alpha.2.tar.gz"
+  sha256 "d289ffa28116aff70218bf3ee379cb1abafa24fb06b0d0f8baee16b47e110a64"
   license "Apache-2.0"
 
   depends_on "rust" => :build
