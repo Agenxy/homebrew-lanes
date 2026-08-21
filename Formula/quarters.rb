@@ -2,7 +2,6 @@ class Quarters < Formula
   desc "Persistent alternate user-state spaces for native processes"
   homepage "https://github.com/Agenxy/quarters"
   url "https://github.com/Agenxy/quarters/archive/refs/tags/v0.1.0-alpha.1.tar.gz"
-  version "0.1.0-alpha.1"
   sha256 "edd841e940acf01b0d82e6d5bfbcf3cac152743c3fe5b54c46beb3d7d72187f1"
   license "Apache-2.0"
 
